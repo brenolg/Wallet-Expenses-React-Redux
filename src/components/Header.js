@@ -15,9 +15,9 @@ class Header extends Component {
 
       <div>
 
-        <p data-testid="email-field" />
-
-        {email}
+        <p data-testid="email-field">
+          {email}
+        </p>
 
         <p data-testid="total-field">{totalField}</p>
 
