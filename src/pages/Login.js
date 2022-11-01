@@ -16,9 +16,9 @@ class Login extends React.Component {
   handleButton = () => {
     const { email, password } = this.state;
     const number = 6;
-    const verifyMax = password.length >= number;
-    const emailCheck = email.length > 0 && email.includes('@');
-    return !(verifyMax && emailCheck);
+    const verifyMin = password.length >= number;
+    const emailCheck = email.includes('@') && email.includes('.com');
+    return !(verifyMin && emailCheck);
   };
 
   handleChange = () => ({ target: { name, value } }) => {
@@ -64,13 +64,13 @@ class Login extends React.Component {
             </label>
 
             <button
-              data-testid="login-submit-button"
               type="button"
               name="submit"
               onClick={ this.handleClick }
               disabled={ this.handleButton() }
             >
               Entrar
+
             </button>
           </form>
 
