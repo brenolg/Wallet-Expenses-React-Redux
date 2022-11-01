@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 class Header extends Component {
   state = {
-    totalField: 'BRL',
-    currency: 0,
+    totalField: 0,
+    currency: 'BRL',
   };
 
   render() {
@@ -16,7 +16,7 @@ class Header extends Component {
       <div>
 
         <p data-testid="email-field" />
-        Email:
+
         {email}
 
         <p data-testid="total-field">{totalField}</p>
