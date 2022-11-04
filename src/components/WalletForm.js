@@ -91,5 +91,8 @@ WalletForm.propTypes = {
 
 };
 
-const mapStateToProps = ({ wallet }) => wallet;
+const mapStateToProps = (state) => ({
+  currencies: state.wallet.currencies,
+});
+
 export default connect(mapStateToProps)(WalletForm);
