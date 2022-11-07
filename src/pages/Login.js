@@ -52,7 +52,7 @@ class Login extends React.Component {
               />
 
             </label>
-            Senhas
+            Senha
             <label htmlFor="password">
               <input
                 data-testid="password-input"
