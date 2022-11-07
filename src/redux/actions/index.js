@@ -1,5 +1,6 @@
 export const SAVEUSER = 'SAVEUSER';
 export const SAVEWALLET = 'SAVEWALLET';
+export const EXCHANGE_INFOS = 'EXCHANGE_INFOS';
 
 export const saveUser = (payload) => ({
   type: SAVEUSER,
@@ -8,6 +9,11 @@ export const saveUser = (payload) => ({
 
 export const saveWallet = (payload) => ({
   type: SAVEWALLET,
+  payload,
+});
+
+export const infoWallet = (payload) => ({
+  type: EXCHANGE_INFOS,
   payload,
 });
 

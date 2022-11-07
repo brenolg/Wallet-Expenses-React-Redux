@@ -1,7 +1,8 @@
-import { SAVEWALLET } from '../actions';
+import { SAVEWALLET, EXCHANGE_INFOS } from '../actions';
 
 const INITIAL_STATE = {
   currencies: [],
+  expenses: [],
 };
 
 const user = (state = INITIAL_STATE, { type, payload }) => {
@@ -12,6 +13,12 @@ const user = (state = INITIAL_STATE, { type, payload }) => {
       ...state,
       currencies: payload,
     };
+
+  case EXCHANGE_INFOS:
+    return ({
+      ...state,
+      expenses: [...state.expenses, payload],
+    });
 
   default:
     return state;
