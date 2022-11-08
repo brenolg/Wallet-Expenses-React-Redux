@@ -26,7 +26,7 @@ class Header extends Component {
               const currenciCode = cur.currency;
               const curAsk = Number(cur.exchangeRates[currenciCode].ask);
               prev = (Number(cur.value) * curAsk) + Number(prev);
-              console.log(prev);
+
               return Number(prev).toFixed(2);
             }, 0)
           )}
