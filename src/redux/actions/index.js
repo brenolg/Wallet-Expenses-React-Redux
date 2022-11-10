@@ -1,6 +1,11 @@
 export const SAVEUSER = 'SAVEUSER';
 export const SAVEWALLET = 'SAVEWALLET';
 export const EXCHANGE_INFOS = 'EXCHANGE_INFOS';
+export const DELETEITEM = 'DELETEITEM';
+
+export const actionCreator = (type, payload) => ({
+  type, payload,
+});
 
 export const saveUser = (payload) => ({
   type: SAVEUSER,
@@ -14,6 +19,11 @@ export const saveWallet = (payload) => ({
 
 export const infoWallet = (payload) => ({
   type: EXCHANGE_INFOS,
+  payload,
+});
+
+export const deleteItem = (payload) => ({
+  type: DELETEITEM,
   payload,
 });
 

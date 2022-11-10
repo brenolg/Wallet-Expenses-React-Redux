@@ -10,7 +10,6 @@ class Header extends Component {
   render() {
     const { email, expenses } = this.props;
     const { currency } = this.state;
-    console.log(expenses[0]);
 
     return (
 

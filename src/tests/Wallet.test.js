@@ -4,7 +4,7 @@ import { renderWithRouterAndRedux } from './helpers/renderWith';
 import Wallet from '../pages/Wallet';
 
 describe('Teste o Login ', () => {
-  test('Teste se é renderizado elementos do Header', () => {
+  test('Teste se é renderizado elementos do Header', async () => {
     renderWithRouterAndRedux(<Wallet />);
 
     const email = screen.getByTestId('email-field');
@@ -21,7 +21,7 @@ describe('Teste o Login ', () => {
 
     const valueInput = screen.getByTestId('value-input');
     const soma = screen.getByText(/0\.00/i);
-    const btn = screen.getByRole('button', { name: /adicionar despesa/i });
+    const btn = screen.getByRole('button', /adicionar/i);
 
     userEvent.type(valueInput, '3');
     userEvent.click(btn);
