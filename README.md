@@ -1,5 +1,5 @@
 # Projeto Wallet Expenses
-Este projeto é uma carteira virtual que permite ao usuário gerenciar suas despesas e receitas em diferentes moedas. A aplicação computa gastos em diferentes moedas e converte tudo para uma única moeda, que pode ser escolhida pelo usuário. Para obter as informações sobre nomes, cotações e outros dados sobre as moedas, foi acessado um endpoint da API de Cotações de Moedas. Tudo isso usando o Redux para compartilhar o estado da sua aplicação entre seus vários componentes.
+Este projeto é uma carteira virtual que permite ao usuário gerenciar suas despesas e receitas em diferentes moedas. A aplicação computa gastos em diferentes moedas e converte tudo para uma única moeda. Para obter as informações sobre nomes, cotações e outros dados sobre as moedas, foi acessado um endpoint da API de Cotações de Moedas. Tudo isso usando o Redux para compartilhar o estado da sua aplicação entre seus vários componentes.
 
 ## Funcionalidades
 
