@@ -8,6 +8,7 @@ Este projeto é uma carteira virtual que permite ao usuário gerenciar suas desp
 * Adicionar, editar e excluir despesas e receitas
 * Visualizar o saldo total
 * Converter as moedas usando uma API externa
+* 60% de cobertura de testes da aplicação
 
 ## Tecnologias utilizadas
 * React
@@ -51,7 +52,7 @@ Abra o navegador e acesse o endereço http://localhost:3000
 2. Crie um header para a página de carteira contendo informações dos gastos do usuário:
 3. Desenvolva um formulário para adicionar uma despesa a carteira:
 4. Salvar todas as informações do formulário no estado global;
-5. 60% de cobertura total da aplicação;
+5. 60% de cobertura de testes da aplicação;
 6. Desenvolva uma tabela com os gastos contendo as características inseridas pelo usuário:
 7. Implemente a lógica para que a tabela seja alimentada pelo estado da aplicação;
 8. Permitir que o usuário delete uma despesa da tabela;
