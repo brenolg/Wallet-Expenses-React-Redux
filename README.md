@@ -1,24 +1,23 @@
 # Projeto Wallet Expenses
-Este projeto é uma carteira virtual que permite ao usuário gerenciar suas despesas e receitas em diferentes moedas.
+Este projeto é uma carteira virtual que permite ao usuário gerenciar suas despesas e receitas em diferentes moedas. A aplicação computa gastos em diferentes moedas e converte tudo para uma única moeda, que pode ser escolhida pelo usuário. Para obter as informações sobre nomes, cotações e outros dados sobre as moedas, foi acessado um endpoint da API de Cotações de Moedas. Tudo isso usando o Redux para compartilhar o estado da sua aplicação entre seus vários componentes.
 
 ## Funcionalidades
 
-* Criar uma conta com email e senha
-* Fazer login e logout da conta
+* Criar uma conta com email e senha validos
+* Fazer login de usuário na home
 * Adicionar, editar e excluir despesas e receitas
-* Visualizar o saldo total e por categoria
+* Visualizar o saldo total
 * Converter as moedas usando uma API externa
-* Aplicar filtros por data, valor ou descrição
 
 ## Tecnologias utilizadas
-* HTML
-* CSS
-* JavaScript
 * React
 * Redux
+* JavaScript
 * React Router
 * Jest
 * React Testing Library
+* HTML
+* CSS
 
 ## Instalação do projeto localmente
 Para instalar o projeto localmente, siga os seguintes passos:
@@ -48,14 +47,14 @@ Abra o navegador e acesse o endereço http://localhost:3000
 
 ## Requisitos 
 
-1. Crie uma página inicial de login com os seguintes campos e características:
-2. Crie um header para a página de carteira contendo as seguintes características:
-3. Desenvolva um formulário para adicionar uma despesa contendo as seguintes características:
-4. Salve todas as informações do formulário no estado global
-5. Desenvolva testes para atingir 60% de cobertura total da aplicação
-6. Desenvolva uma tabela com os gastos contendo as seguintes características:
-7. Implemente a lógica para que a tabela seja alimentada pelo estado da aplicação
-8. Crie um botão para deletar uma despesa da tabela contendo as seguintes características:
+1. Crie uma página inicial de login;
+2. Crie um header para a página de carteira contendo informações dos gastos do usuário:
+3. Desenvolva um formulário para adicionar uma despesa a carteira:
+4. Salvar todas as informações do formulário no estado global;
+5. 60% de cobertura total da aplicação;
+6. Desenvolva uma tabela com os gastos contendo as características inseridas pelo usuário:
+7. Implemente a lógica para que a tabela seja alimentada pelo estado da aplicação;
+8. Permitir que o usuário delete uma despesa da tabela;
 
 ## Agradecimentos
 Agradecemos à Trybe por nos proporcionar esta oportunidade de aprendizado e desenvolvimento de habilidades. Também agradecemos aos instrutores, colegas e mentores que nos apoiaram e orientaram durante o projeto.
