@@ -28,7 +28,7 @@ Para instalar o projeto localmente, siga os seguintes passos:
 Clone o repositório com o comando git clone
 
 ```javascript
- git clone git@github.com:brenolg/Wallet-Expenses-Redux.git
+ git clone git@github.com:brenolg/Wallet-Expenses-React-Redux.git
 ```
 Entre na pasta do projeto com o comando 
 
